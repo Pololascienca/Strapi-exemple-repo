@@ -375,6 +375,7 @@ export interface ApiNameName extends Schema.CollectionType {
   };
   attributes: {
     flistone: Attribute.String;
+    numberOfPlaces: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
